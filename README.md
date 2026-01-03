@@ -12,6 +12,7 @@ demonstrating modern UI automation techniques.
 - Chrome WebDriver
 
 ## Project Structure
+```
 learnqaweb/
 │
 ├── Base/ # Base classes (driver, waits, actions)
@@ -21,6 +22,7 @@ learnqaweb/
 ├── Reports/ # HTML test reports
 ├── conftest.py # Pytest fixtures & configuration
 └── README.md
+```
 
 ## Features Implemented
 - Page Object Model (POM)
