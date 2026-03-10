@@ -14,7 +14,6 @@ class Test:
         main_page.coockies()
         main_page.start()
 
-    @pytest.mark.skip(reason="no need")
     def test_booard(self, setup):
         self.start(setup)
         board_page = board(setup)
@@ -35,7 +34,6 @@ class Test:
         dynamic.HiddenDynamicElements()
         dynamic.DynamicContentGeneration()
 
-    @pytest.mark.skip(reason="no need")
     def test_IFRAMEnWINDOWSS(self, setup):
         self.start(setup)
         board_page = board(setup)
@@ -44,7 +42,6 @@ class Test:
         frame = iFramesWindows(setup)
         frame.iframe()
 
-    @pytest.mark.skip(reason="no need")
     def test_KeyyboardMouse(self, setup):
         self.start(setup)
         board_page = board(setup)
@@ -53,7 +50,6 @@ class Test:
         ki = keyboardandmouse(setup)
         ki.keymo()
 
-    @pytest.mark.skip(reason="no need")
     def test_ShadowDomm(self, setup):
         self.start(setup)
         board_page = board(setup)
