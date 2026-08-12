@@ -5,7 +5,6 @@ from Pages.Dashboard.DynamicElement import Dynamic
 from Pages.Dashboard.IFRAME import iFramesWindows
 from Pages.Dashboard.KeyboardANDMouse import keyboardandmouse
 from Pages.Dashboard.shadowdoom import shadow
-import pytest
 
 
 class Test:
